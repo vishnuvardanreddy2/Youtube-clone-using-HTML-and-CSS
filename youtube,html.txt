@@ -1,0 +1,206 @@
+youtube.html
+<!DOCTYPE html>
+<html>
+   <head>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+         <link rel="stylesheet" href="styles/general.css">
+         <link rel="stylesheet" href="styles/header.css">
+         <link rel="stylesheet" href="styles/channel.css">
+         <link rel="stylesheet" href="styles/sidebar.css">
+</head>
+   <body>
+      <div class="header">
+         <div class="left-section">
+            <img  class="menu" src="C:\Users\vishn\OneDrive\Desktop\youtube/hamburger-menu.svg">
+            <img class="logo" src="C:\Users\vishn\OneDrive\Desktop\youtube/youtube-logo.svg">
+         </div>
+      <div class="middle-section">
+          <input class="search" type="text" placeholder="search">
+          <button class="search-button">
+            <img class="search-icon"src="C:\Users\vishn\OneDrive\Desktop\youtube/search.svg">
+            <div class="toolflip">search</div>
+          </button>
+          <button class="voice-search-icon">
+            <img class="voice-search-button" src="C:\Users\vishn\OneDrive\Desktop\youtube/voice-search-icon.svg">
+            <div class="toolflip">search with your voice</div>
+          </button>
+         </div>
+      <div class="right-section">
+         <div class="upload-container"> 
+            <img class="upload"src="C:\Users\vishn\OneDrive\Desktop\youtube/upload.svg">
+            <div class="toolflip">Create</div>
+         </div>
+         <div class="app-container">
+            <img class="apps"src="C:\Users\vishn\OneDrive\Desktop\youtube/youtube-apps.svg">
+            <div class="toolflip">Apps</div>
+         </div>
+         <div class="noti-container">
+         <div class="notification-container">
+         </div>
+         <img class="notification"src="C:\Users\vishn\OneDrive\Desktop\youtube/notifications.svg">
+         <div class="notification-count">3</div>
+         </div>
+         <div class="channel-container">
+            <img class="mychannel"src="C:\Users\vishn\OneDrive\Desktop\youtube/my-channel.jpeg">
+         </div>
+        
+      </div>
+      </div>
+      <div class="sidebar">
+         <div style="font-family: Roboto,Arial; font-size:12px;" class="sidebar-link">
+            <img src="C:\Users\vishn\OneDrive\Desktop\youtube/home.svg">
+          Home</div>
+         <div style="font-family: Roboto, Arial;font-size:12px;"class="sidebar-link">
+            <img src="C:\Users\vishn\OneDrive\Desktop\youtube/explore.svg">
+          Explore</div>
+         <div style="font-family: Roboto, Arial; font-size: 12px;"class="sidebar-link">
+            <img src="C:\Users\vishn\OneDrive\Desktop\youtube/subscriptions.svg">
+          Subscriptions</div>
+         <div style="font-family:Roboto, Arial; font-size:12px"class="sidebar-link">
+            <img src="C:\Users\vishn\OneDrive\Desktop\youtube/originals.svg">
+          Originals</div>
+         <div style="font-family:Roboto, Arial; font-size:10px"class="sidebar-link">
+            <img src="C:\Users\vishn\OneDrive\Desktop\youtube/youtube-music.svg">
+          YouTube Music</div>
+         <div style="font-family:Roboto,Arial; font-size:12px"class="sidebar-link">
+            <img src="C:\Users\vishn\OneDrive\Desktop\youtube/library.svg">
+          Library</div>
+      </div>
+      <div class="vedio-grid">
+            <div class="preview">
+               <div class="thumbnail-row">
+               <image class="thumbnail" src="C:\Users\vishn\OneDrive\Desktop\youtube/thumbnail-1.webp">
+                  <div class="vedio-time">14:20</div>
+               </div>
+               <div class="channel-info-grid">
+                  <div class="channel-pic">
+                     <image class="profile"src="C:\Users\vishn\OneDrive\Desktop\youtube/channel-1.jpeg">
+                  </div>
+                  <div class="channel-info">
+                  <p class="vediotitle"> 
+         Talking Tech and AI with Google CEO Sundar Pichai!
+                  </p>
+                  <p class="vedio-author">
+                     Marques Brownlee
+                  </p>
+                  <p class="stats">
+                     3.4M views &#183;6 months ago
+                  </p>
+                  </div>
+                  </div>
+            </div>
+            <div class="preview">
+               <div class="thumbnail-spacing">
+                  <image class="thumbnail" src="C:\Users\vishn\OneDrive\Desktop\youtube/thumbnail-2.webp">
+                     <div class="vedio-time">8:22</div>
+               </div>
+               <div class="channel-info-grid">
+                  <div class="channel-pic">
+                     <image class="profile" src="C:\Users\vishn\OneDrive\Desktop\youtube/channel-2.jpeg">
+                  </div>
+                  <div class="channel-info">
+                     <p class="vediotitle"> 
+                        Try Not To Laugh Challenge #9
+                     </p>
+                     <p class="author">
+                        Markiplier
+                     </p>
+                     <p class="stats">
+                        19M views · 4 years ago
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="preview">
+               <div class="thumbnail-row">
+               <image class="thumbnail" src="C:\Users\vishn\OneDrive\Desktop\youtube/thumbnail-3.webp">
+                  <div class="vedio-time">9:22</div>
+               </div>
+               <div class="channel-info-grid">
+                  <div class="channel-pic">
+                     <image class="profile"src="C:\Users\vishn\OneDrive\Desktop\youtube/channel-3.jpeg">
+                  </div>
+                  <div class="channel-info">
+                  <p class="vediotitle"> 
+         Talking Tech and AI with Google CEO Sundar Pichai!
+                  </p>
+                  <p class="vedio-author">
+                     Marques Brownlee
+                  </p>
+                  <p class="stats">
+                     3.4M views &#183;6 months ago
+                  </p>
+                  </div>
+                  </div>
+            </div>
+            <div class="preview">
+               <div class="thumbnail-spacing">
+                  <image class="thumbnail" src="C:\Users\vishn\OneDrive\Desktop\youtube/thumbnail-4.webp">
+                     <div class="vedio-time">19:59</div>
+               </div>
+               <div class="channel-info-grid">
+                  <div class="channel-pic">
+                     <image class="profile" src="C:\Users\vishn\OneDrive\Desktop\youtube/channel-4.jpeg">
+                  </div>
+                  <div class="channel-info">
+                     <p class="vediotitle"> 
+                        Try Not To Laugh Challenge #9
+                     </p>
+                     <p class="author">
+                        Markiplier
+                     </p>
+                     <p class="stats">
+                        19M views · 4 years ago
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="preview">
+               <div class="thumbnail-row">
+               <image class="thumbnail" src="C:\Users\vishn\OneDrive\Desktop\youtube/thumbnail-5.webp">
+                  <div class="vedio-time">22:09</div>
+               </div>
+               <div class="channel-info-grid">
+                  <div class="channel-pic">
+                     <image class="profile"src="C:\Users\vishn\OneDrive\Desktop\youtube/channel-5.jpeg">
+                  </div>
+                  <div class="channel-info">
+                  <p class="vediotitle"> 
+         Talking Tech and AI with Google CEO Sundar Pichai!
+                  </p>
+                  <p class="vedio-author">
+                     Marques Brownlee
+                  </p>
+                  <p class="stats">
+                     3.4M views &#183;6 months ago
+                  </p>
+                  </div>
+                  </div>
+            </div>
+            <div class="preview">
+               <div class="thumbnail-spacing">
+                  <image class="thumbnail" src="C:\Users\vishn\OneDrive\Desktop\youtube/thumbnail-6.webp">
+                     <div class="vedio-time">11:17</div>
+               </div>
+               <div class="channel-info-grid">
+                  <div class="channel-pic">
+                     <image class="profile" src="C:\Users\vishn\OneDrive\Desktop\youtube/channel-6.jpeg">
+                  </div>
+                  <div class="channel-info">
+                     <p class="vediotitle"> 
+                        Try Not To Laugh Challenge #9
+                     </p>
+                     <p class="author">
+                        Markiplier
+                     </p>
+                     <p class="stats">
+                        19M views · 4 years ago
+                     </p>
+                  </div>
+               </div>
+            </div>
+      </div>
+   </body>
+</html>
